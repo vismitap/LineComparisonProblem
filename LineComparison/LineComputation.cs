@@ -33,11 +33,15 @@ namespace LineComparison
 
             if(firstLineLength == secondLineLength)
             {
-                Console.WriteLine("Line1 and Line2 are EQUAL!");
+                Console.WriteLine($"Line1 having length = {firstLineLength} and Line2 having length = {secondLineLength} are EQUAL !");
             }
-            else
+            if(firstLineLength > secondLineLength)
             {
-                Console.WriteLine("Line1 and Line2 are UNEQUAL!");
+                Console.WriteLine($"Line1 having length = {firstLineLength} is greater than Line2 having length = {secondLineLength} !");
+            }
+            if(firstLineLength < secondLineLength)
+            {
+                Console.WriteLine($"Line1 having length = {firstLineLength} is lesser than Line2 having length = {secondLineLength} !");
             }
 
         }
