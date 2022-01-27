@@ -11,6 +11,8 @@ namespace LineComparison
         static void Main(string[] args)
         {
             Console.WriteLine("************Welcome to Line Comparison Problem!************");
+            LineComputation line = new LineComputation();
+            line.ComputeLines();
         }
     }
 }
